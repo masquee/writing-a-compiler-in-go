@@ -3,8 +3,9 @@ package ast
 import (
 	"bytes"
 	"fmt"
-	"monkey/token"
 	"strings"
+
+	"monkey/token"
 )
 
 // The base Node interface

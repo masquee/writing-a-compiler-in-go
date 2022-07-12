@@ -4,9 +4,10 @@ import (
 	"bytes"
 	"fmt"
 	"hash/fnv"
+	"strings"
+
 	"monkey/ast"
 	"monkey/code"
-	"strings"
 )
 
 type BuiltinFunction func(args ...Object) Object

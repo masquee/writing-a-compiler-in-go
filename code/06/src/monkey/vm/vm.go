@@ -2,6 +2,7 @@ package vm
 
 import (
 	"fmt"
+
 	"monkey/code"
 	"monkey/compiler"
 	"monkey/object"

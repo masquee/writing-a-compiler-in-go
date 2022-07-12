@@ -2,10 +2,11 @@ package compiler
 
 import (
 	"fmt"
+	"sort"
+
 	"monkey/ast"
 	"monkey/code"
 	"monkey/object"
-	"sort"
 )
 
 type Compiler struct {
